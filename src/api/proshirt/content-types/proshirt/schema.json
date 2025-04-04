@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proshirts",
+  "info": {
+    "singularName": "proshirt",
+    "pluralName": "proshirts",
+    "displayName": "proshirt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "productImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "productName": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "required": true,
+      "type": "decimal"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Red",
+        "Blue",
+        "Gren",
+        "Black"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "Small",
+        "Medium",
+        "Large",
+        "Extra Large",
+        "XXL"
+      ]
+    }
+  }
+}
