@@ -28,23 +28,8 @@
       "type": "decimal"
     },
     "color": {
-      "type": "enumeration",
-      "enum": [
-        "Red",
-        "Blue",
-        "Gren",
-        "Black"
-      ]
-    },
-    "size": {
-      "type": "enumeration",
-      "enum": [
-        "Small",
-        "Medium",
-        "Large",
-        "Extra Large",
-        "XXL"
-      ]
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -28,26 +28,7 @@
       "required": true
     },
     "color": {
-      "type": "enumeration",
-      "enum": [
-        "Red",
-        "Blue",
-        "Gren",
-        "Black"
-      ]
-    },
-    "Size": {
-      "type": "enumeration",
-      "enum": [
-        "EU 40",
-        "EU 41",
-        "EU 42",
-        "EU 43",
-        "EU 44",
-        "EU 45",
-        "EU 46"
-      ],
-      "required": false
+      "type": "json"
     }
   }
 }
